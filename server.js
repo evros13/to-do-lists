@@ -4,6 +4,7 @@ const express = require('express')
 const app = express()
 
 
+
 // CONNECTING TO THE DB
 const mongoose = require('mongoose')
 const MONGO_URI = process.env.MONGODB_URI 
